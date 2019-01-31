@@ -3,11 +3,11 @@
 
 * Python
 * C
-C++
-Java
-JavaScript
-Visual Basic
-Scratch
+* C++
+* Java
+* JavaScript
+* Visual Basic
+* Scratch
 
 請注意不同的作業系統中，換行的符號不同，例如：
 Windows中為  "\r\n"

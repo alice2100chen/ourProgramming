@@ -1,0 +1,9 @@
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch4-6a\Ch4-6a\bin\Debug\Ch4-6a.exe
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch4-6a\Ch4-6a\bin\Debug\Ch4-6a.pdb
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch4-6a\Ch4-6a\bin\Debug\Ch4-6a.xml
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch4-6a\Ch4-6a\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch4-6a\Ch4-6a\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch4-6a\Ch4-6a\obj\x86\Debug\Ch4-6a.vbproj.GenerateResource.Cache
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch4-6a\Ch4-6a\obj\x86\Debug\Ch4-6a.exe
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch4-6a\Ch4-6a\obj\x86\Debug\Ch4-6a.xml
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch4-6a\Ch4-6a\obj\x86\Debug\Ch4-6a.pdb

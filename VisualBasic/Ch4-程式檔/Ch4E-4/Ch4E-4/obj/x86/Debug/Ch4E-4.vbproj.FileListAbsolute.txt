@@ -1,0 +1,9 @@
+C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4E-4\Ch4E-4\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4E-4\Ch4E-4\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4E-4\Ch4E-4\obj\x86\Debug\Ch4E-4.vbproj.GenerateResource.Cache
+C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4E-4\Ch4E-4\bin\Debug\Ch4E-4.exe
+C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4E-4\Ch4E-4\bin\Debug\Ch4E-4.pdb
+C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4E-4\Ch4E-4\bin\Debug\Ch4E-4.xml
+C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4E-4\Ch4E-4\obj\x86\Debug\Ch4E-4.exe
+C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4E-4\Ch4E-4\obj\x86\Debug\Ch4E-4.xml
+C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4E-4\Ch4E-4\obj\x86\Debug\Ch4E-4.pdb

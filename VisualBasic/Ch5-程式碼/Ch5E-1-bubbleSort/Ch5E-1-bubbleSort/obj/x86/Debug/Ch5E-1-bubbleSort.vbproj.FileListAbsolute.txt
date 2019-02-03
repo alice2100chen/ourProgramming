@@ -1,0 +1,9 @@
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch5E-1-bubbleSort\Ch5E-1-bubbleSort\bin\Debug\Ch5E-1-bubbleSort.exe
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch5E-1-bubbleSort\Ch5E-1-bubbleSort\bin\Debug\Ch5E-1-bubbleSort.pdb
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch5E-1-bubbleSort\Ch5E-1-bubbleSort\bin\Debug\Ch5E-1-bubbleSort.xml
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch5E-1-bubbleSort\Ch5E-1-bubbleSort\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch5E-1-bubbleSort\Ch5E-1-bubbleSort\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch5E-1-bubbleSort\Ch5E-1-bubbleSort\obj\x86\Debug\Ch5E-1-bubbleSort.vbproj.GenerateResource.Cache
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch5E-1-bubbleSort\Ch5E-1-bubbleSort\obj\x86\Debug\Ch5E-1-bubbleSort.exe
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch5E-1-bubbleSort\Ch5E-1-bubbleSort\obj\x86\Debug\Ch5E-1-bubbleSort.xml
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch5E-1-bubbleSort\Ch5E-1-bubbleSort\obj\x86\Debug\Ch5E-1-bubbleSort.pdb

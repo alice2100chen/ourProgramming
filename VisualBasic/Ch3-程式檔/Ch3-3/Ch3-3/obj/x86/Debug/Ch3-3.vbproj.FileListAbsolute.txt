@@ -1,0 +1,9 @@
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch3-3\Ch3-3\bin\Debug\Ch3-3.exe
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch3-3\Ch3-3\bin\Debug\Ch3-3.pdb
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch3-3\Ch3-3\bin\Debug\Ch3-3.xml
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch3-3\Ch3-3\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch3-3\Ch3-3\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch3-3\Ch3-3\obj\x86\Debug\Ch3-3.vbproj.GenerateResource.Cache
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch3-3\Ch3-3\obj\x86\Debug\Ch3-3.exe
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch3-3\Ch3-3\obj\x86\Debug\Ch3-3.xml
+C:\Users\AliceChen\Documents\Visual Studio 2010\Projects\Ch3-3\Ch3-3\obj\x86\Debug\Ch3-3.pdb

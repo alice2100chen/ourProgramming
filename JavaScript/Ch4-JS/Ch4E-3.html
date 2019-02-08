@@ -1,0 +1,21 @@
+<html>
+<body>
+
+<script>
+var grades = [40, 80, 75, 20, 96, 69, 50];
+var lower_60 = 0;
+var higher_90 = 0;
+for(var i = 0; i < 7; i++){
+    if(grades[i] > 90){
+        higher_90 = higher_90 + 1;
+    }
+    else if(grades[i] < 60){
+        lower_60 = lower_60 + 1;
+    }
+}
+console.log('<60分: ' + lower_60 + '個');
+console.log('>90分: ' + higher_90 + '個');
+</script>
+
+</body>
+</html>

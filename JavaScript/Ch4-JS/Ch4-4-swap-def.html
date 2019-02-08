@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<script>
+var num_visitors = [70, 10, 14, 7, 25, 30, 50]; // 索引0~6代表星期日到六
+console.log(num_visitors);
+swap(num_visitors, 0, 6); // 把星期日及星期六的人數交換
+console.log(num_visitors);
+
+function swap(a, i, j){
+    var temp = a[i];
+    a[i] = a[j];
+    a[j] = temp; // 不必return
+}
+</script>
+
+</body>
+</html>

@@ -32,7 +32,7 @@ var data_count = data.length;       // 資料數 = 陣列長度 = 5個
 // ----------
 for(var i = 0; i < data_count - 1; i++){            // 5個數字，只需排4次，最後一個數會自動排好
     one_bubble(data, data_count-1-i);               // 最右邊的i個數已排好，不需要再排
-    console.log('第' + (i+1) + '回合結果: ' + data);// 印出每回合的結果
+    console.log('第' + i + '回合結果: ' + data);// 印出每回合的結果
 }
 console.log('排序結束');
 // ===== 主程式結束 =====

@@ -1,0 +1,1 @@
+#include <iostream>#include <vector>using std::vector;using std::cout;using std::endl;int main(){	vector<int> score_array = {85, 92, 88, 96};	int x = score_array.at(0);			// you can but souldn't use score_array[0] directly	cout << x << endl;	score_array.at(0) = 95;	x = score_array.at(0);	cout << x << endl;}

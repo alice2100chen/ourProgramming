@@ -53,17 +53,17 @@ for(var i = 0; i < data_count-1; i++){                  // 4個動物，只需�
     one_bubble(data_sum, animal_names, i, data_count);  // 右邊已排好的不需要再排
     console.log('第' + i + '回合結果:');                // 印出每回合結果
     for(var j = 0; j < 4; j++){
-        console.log([animal_names[j] + ' ' + data_sum[j]]); // 將分數連同動物名字印出來 
+        console.log(animal_names[j] + ' ' + data_sum[j]); // 將分數連同動物名字印出來 
     }
     console.log('\n');
 }
 console.log('排序結束');
-// ===== 主程式結束 =====
 
 // 印出前三名
 for(var i = 0; i < 3; i++){
     console.log('第'+ (i+1) + '名:' + animal_names[data_count-i-1]); // 分數最高的排在最右邊，因此要用data_count去扣掉i才能取得前三大的
 }
+// ===== 主程式結束 =====
 </script>
 
 </body>

@@ -9,5 +9,5 @@ int main(){
 	x = y;
 	y = x;
 
-	cout << x << " " << y << endl;
+	cout << x << ' ' << y << endl;
 }

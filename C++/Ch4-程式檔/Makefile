@@ -1,12 +1,14 @@
-CXX = g++
-CFLAGS = -std=c++11 -Wall
-SRCS = $(wildcard *.cpp)
-PROGS = $(patsubst %.cpp,%,$(SRCS))
+CXX	= g++
+CFLAGS	= -std=c++11 -Wall
+
+SRCS	= $(wildcard *.cpp)
+PROGS	= $(SRCS:.cpp=.out)
 
 .PHONY: all
 all: $(PROGS)
-%: %.cpp
-	$(CXX) -o $@.out $< $(CFLAGS)
+$(PROGS): *.cpp
+	$(CXX) -o $@ $< $(CFLAGS)
+
 
 .PHONY: clean
 clean:

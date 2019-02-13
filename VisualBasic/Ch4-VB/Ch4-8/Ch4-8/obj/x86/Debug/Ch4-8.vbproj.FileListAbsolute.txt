@@ -1,9 +1,0 @@
-C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4-8\Ch4-8\bin\Debug\Ch4-8.exe
-C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4-8\Ch4-8\bin\Debug\Ch4-8.pdb
-C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4-8\Ch4-8\bin\Debug\Ch4-8.xml
-C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4-8\Ch4-8\obj\x86\Debug\WindowsApplication1.Form1.resources
-C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4-8\Ch4-8\obj\x86\Debug\WindowsApplication1.Resources.resources
-C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4-8\Ch4-8\obj\x86\Debug\Ch4-8.vbproj.GenerateResource.Cache
-C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4-8\Ch4-8\obj\x86\Debug\Ch4-8.exe
-C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4-8\Ch4-8\obj\x86\Debug\Ch4-8.xml
-C:\Users\AliceChen\documents\visual studio 2010\Projects\Ch4-8\Ch4-8\obj\x86\Debug\Ch4-8.pdb

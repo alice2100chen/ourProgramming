@@ -6,7 +6,7 @@ PROGS	= $(SRCS:.cpp=.out)
 
 .PHONY: all
 all: $(PROGS)
-$(PROGS): *.cpp
+%.out: %.cpp
 	$(CXX) -o $@ $< $(CFLAGS)
 
 

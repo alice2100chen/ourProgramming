@@ -19,7 +19,7 @@
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         '======== 主程式開始 =============================================================
-        'Ch5-3-binarySearch.py
+        'Ch5-3-binarySearch
         '實作二分搜尋演算法
         '函數: binary_search
         '版本: 1.0

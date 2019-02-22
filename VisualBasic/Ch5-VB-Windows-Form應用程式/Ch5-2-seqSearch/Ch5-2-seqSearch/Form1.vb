@@ -9,7 +9,7 @@
     End Function
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        'Ch5-2-seqSearch.py
+        'Ch5-2-seqSearch
         '實作循序搜尋演算法
         '函數: seq_search
         '版本: 1.0

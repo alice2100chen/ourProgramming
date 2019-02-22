@@ -17,7 +17,7 @@
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         '======== 主程式開始 =============================================================
-        'Ch5-1-bubbleSort.py
+        'Ch5-1-bubbleSort
         '實作氣泡排序演算法(函數版)
         '函數: swap, one_bubble
         '版本: 1.0

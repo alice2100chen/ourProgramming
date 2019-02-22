@@ -1,7 +1,7 @@
 ﻿Public Class Form1
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         '======== 主程式開始 =============================================================
-        'Ch5-bubbleSort.py
+        'Ch5-bubbleSort
         '實作氣泡排序演算法(雙迴圈)
         '版本: 1.0
         Dim data() As Integer = {4, 1, 3, 5, 2}

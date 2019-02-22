@@ -8,7 +8,7 @@
         Return -1                               ' for迴圈結束仍沒有找到，回傳-1
     End Function
     Sub Main()
-        'Ch5-2-seqSearch.py
+        'Ch5-2-seqSearch
         '實作循序搜尋演算法
         '函數: seq_search
         '版本: 1.0

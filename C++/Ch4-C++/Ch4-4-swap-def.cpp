@@ -15,9 +15,9 @@ ostream &operator<<(ostream &os, vector<int> vect){
 }
 
 void swap(vector<int> &a, int i, int j){
-	int temp = a[i];
-	a[i] = a[j];
-	a[j] = temp;
+	int temp = a.at(i);
+	a(i) = a(j);
+	a(j) = temp;
 }
 
 int main(){

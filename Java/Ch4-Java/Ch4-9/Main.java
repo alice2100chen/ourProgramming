@@ -10,7 +10,7 @@ public class Main {
         for(int week_index = 0; week_index < 3; week_index++){// 有3個星期的資料，因此是0,1,2
             // 以下這個System.out.println()屬於外層迴圈
             System.out.println("第" + (week_index + 1) + "個星期");
-            for(int day_index = 0; day_index < 7; day_index++){
+            for(int day_index = 0; day_index < 7; day_index++){// 一星期有7天，因此是0,1,2,3,4,5,6
                 // 以下這個System.out.println()屬於內層迴圈
                 System.out.println(day_names[day_index] + num_visitors[week_index][day_index] + "人");
             }

@@ -48,7 +48,7 @@ int main(){
 		for(int j=0; j<3; ++j){
 			data_sum.at(i) += data_2d.at(i).at(j);}}
 
-	cout << "總分統計結果如下: " << endl;
+	cout << "總分統計結果如下:" << endl;
 	cout << animal_names << endl;
 	cout << data_sum << '\n' << endl;
 

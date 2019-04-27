@@ -6,7 +6,7 @@ int main(){
     int x = 10;
     int y = 20;
     x = 30 ;
-    cout << x << " " <<  y << endl;
+    cout << x << " " <<  y;
 
     return 0;
 }

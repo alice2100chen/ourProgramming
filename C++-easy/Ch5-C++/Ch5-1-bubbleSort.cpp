@@ -1,5 +1,5 @@
 /*
-Ch5-1-bubbleSort.c
+Ch5-1-bubbleSort.cpp
 實作氣泡排序演算法(函數版)
 函數: swap, one_bubble, print_array
 版本: 1.0

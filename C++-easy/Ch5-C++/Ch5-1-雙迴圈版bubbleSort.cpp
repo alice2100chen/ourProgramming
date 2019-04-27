@@ -1,5 +1,5 @@
 /*
-Ch5-bubbleSort.c
+Ch5-bubbleSort.cpp
 實作氣池排序演算法(雙迴圈)
 函數: print_array
 版本: 1.0

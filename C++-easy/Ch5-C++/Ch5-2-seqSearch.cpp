@@ -1,5 +1,5 @@
 /*
-Ch5-2-seqSearch.c
+Ch5-2-seqSearch.cpp
 實作循序搜尋演算法
 函數: seq_search
 版本: 1.0

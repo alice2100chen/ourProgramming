@@ -1,5 +1,5 @@
 /*
-Ch5-3-binarySearch.c
+Ch5-3-binarySearch.cpp
 實作二分搜尋演算法
 函數: binary_search, print_array
 版本: 1.0

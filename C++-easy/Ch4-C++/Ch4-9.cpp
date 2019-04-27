@@ -12,10 +12,10 @@ int main(){
     string day_names[7] = {"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"};
     
     for(int week_index = 0; week_index < 3; week_index++){  // 有3個星期的資料，因此是0,1,2
-        // 以下這個printf()屬於外層迴圈
+        // 以下這個cout屬於外層迴圈
         cout << "第" << week_index + 1 << "個星期" << endl;
         for(int day_index = 0; day_index < 7; day_index++){
-            // 以下這個printf()屬於內層迴圈
+            // 以下這個cout屬於內層迴圈
             cout << day_names[day_index] << num_visitors[week_index][day_index] << "人" << endl;
         }
     }

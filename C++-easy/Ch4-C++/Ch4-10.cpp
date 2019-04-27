@@ -10,7 +10,6 @@ int main(){
     for(int day_index = 0; day_index < 7; day_index++){
         if(num_visitors[day_index] > 35){
             cout << day_names[day_index] << " 人數爆棚！" << endl;
-
         }
         else{
             cout << day_names[day_index] << " 需要繼續加油..." << endl;

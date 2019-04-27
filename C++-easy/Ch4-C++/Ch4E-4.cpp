@@ -18,7 +18,7 @@ int gcd(int p, int q){
 }
 
 int main(){
-    printf("%d\n", gcd(8, 12));
+    cout << gcd(8, 12) << endl;
 
     return 0;
 }

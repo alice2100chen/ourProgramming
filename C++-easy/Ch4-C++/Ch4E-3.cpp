@@ -16,8 +16,8 @@ int main(){
         }
     }
 
-    printf("<60分: %d 個\n", lower_60);
-    printf(">90分: %d 個\n", higher_90);
+    cout << "<60分: " << lower_60 << " 個" << endl;
+    cout << ">90分: " << higher_90 << " 個" << endl;
 
     return 0;
 }

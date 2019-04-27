@@ -10,8 +10,9 @@ void swap(int a[], int i, int j){
 
 void print_array(int arr[], int arr_len){
     for(int i = 0; i < arr_len; i++){
-        printf("%d ", arr[i]);}
-    printf("\n");
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 }
 
 int main(){

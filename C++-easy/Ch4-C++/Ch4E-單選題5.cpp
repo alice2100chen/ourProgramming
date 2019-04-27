@@ -10,7 +10,7 @@ int recursive_add(int n){
 }
 
 int main(){
-    printf("%d\n", recursive_add(15));    
+    cout << recursive_add(15) << endl;
 
     return 0;
 }

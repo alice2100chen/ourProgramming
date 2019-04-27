@@ -14,21 +14,11 @@ int main(){
         {"樹葉", "肉", "紅蘿蔔"}
     };
 
-    for(int i = 0; i < 3; i++){
-        for(int j = 0; j < 3; j++){
-            cout << num_2d_array[i][j] << " ";
-        }
-        cout << "; ";
-    }
-    cout << endl;
+    cout << num_2d_array[0][0] << " ";
+    cout << num_2d_array[1][1] << endl;
 
-    for(int i = 0; i < 2; i++){
-        for(int j = 0; j < 3; j++){
-            cout << animals_2d[i][j] << " ";
-        }
-        cout << "; ";
-    }
-    cout << endl;
+    cout << animals_2d[0][1] << " ";
+    cout << animals_2d[1][1] << endl;
 
     return 0;
 }

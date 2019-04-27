@@ -11,21 +11,11 @@ int main(){
         {"樹葉", "肉", "紅蘿蔔"}
     };
 
-    for(int i = 0; i < 3; i++){
-        for(int j = 0; j < 3; j++){
-            printf("%d ", num_2d_array[i][j]);
-        }
-        printf("; ");
-    }
-    printf("\n");
+    printf("%d ", num_2d_array[0][0]);
+    printf("%d\n", num_2d_array[1][1]);
 
-    for(int i = 0; i < 2; i++){
-        for(int j = 0; j < 3; j++){
-            printf("%s ", animals_2d[i][j]);
-        }
-        printf("; ");
-    }
-    printf("\n");
+    printf("%s ", animals_2d[0][1]);
+    printf("%s\n", animals_2d[1][1]);
 
     return 0;
 }

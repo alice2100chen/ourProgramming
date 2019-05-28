@@ -1,8 +1,7 @@
-def factorial(n):                  #函數名稱factorial及參數n
-    if n <= 1:                     #函數內部的程式碼--由此開始
-        return 1
-    else:
-        return n * factorial(n-1)  #函數內部的程式碼--到此結束
-print (factorial(3))        #呼叫函數計算 3!
-print (factorial(10))       #呼叫函數計算 10!
-print (factorial(40))       #呼叫函數計算 40!
+BMI = 22.5          # 這裡的變數BMI是英文大寫，下面的也一樣要大寫
+if BMI < 18.5:
+    print('體重過輕也不算健康哦！')
+elif BMI < 24:
+    print('合適的體重，繼續保持哦！')
+else:
+    print('控制飲食、多運動會更健康哦！')

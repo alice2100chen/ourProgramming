@@ -1,4 +1,4 @@
-#Ch5E-1-Ranking.py
+#Ch5E-3-Ranking.py
 #實作鐵人三項成績分析，輸出排名
 #函數: swap, one_bubble
 #版本: 1.0

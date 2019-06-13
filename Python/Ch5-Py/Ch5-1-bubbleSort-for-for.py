@@ -1,4 +1,4 @@
-#Ch5-bubbleSort.py
+#Ch5-1-bubbleSort-for-for.py
 #實作氣池排序演算法(雙迴圈)
 #版本: 1.0
 data = [4, 1, 3, 5, 2]                # 資料數 = 陣列長度 = 5個

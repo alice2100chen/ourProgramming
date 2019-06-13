@@ -1,7 +1,7 @@
-BMI = 22.5          # 這裡的變數BMI是英文大寫，下面的也一樣要大寫
-if BMI < 18.5:
-    print('體重過輕也不算健康哦！')
-elif BMI < 24:
-    print('合適的體重，繼續保持哦！')
-else:
-    print('控制飲食、多運動會更健康哦！')
+num_visitors = [50, 10, 14, 7, 25, 30, 70]
+day_names = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六']
+for day_index in range(7):
+    if num_visitors[day_index] > 35:
+        print(day_names[day_index], ' 人數爆棚！')
+    else:
+        print(day_names[day_index], ' 需要繼續加油...')

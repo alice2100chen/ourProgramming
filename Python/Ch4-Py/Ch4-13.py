@@ -1,5 +1,5 @@
-n = 3                      # 求n!
-product = 1                # 先設乘積變數product為1
-for i in range(n):         # i在每回合中分別為0,1,2,...,n-1
-    product = (i+1) * product  # i+1在每回合中分別1,2,3,...,n
-print(product)
+def addition(a, b):     # 注意，這一列最後要加上「:」
+    c = a + b           # 這一列以下要縮排
+    return c
+z = addition(5,10)      # 利用變數z來儲存函數運算的結果
+print(z)

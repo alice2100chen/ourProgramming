@@ -1,5 +1,7 @@
-def addition(a, b):     # 注意，這一列最後要加上「:」
-    c = a + b           # 這一列以下要縮排
-    return c
-z = addition(5,10)      # 利用變數z來儲存函數運算的結果
-print(z)
+BMI = 22.5          # 這裡的變數BMI是英文大寫，下面的也一樣要大寫
+if BMI < 18.5:
+    print('體重過輕也不算健康哦！')
+elif BMI < 24:
+    print('合適的體重，繼續保持哦！')
+else:
+    print('控制飲食、多運動會更健康哦！')

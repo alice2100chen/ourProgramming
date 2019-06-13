@@ -6,7 +6,6 @@ num_2d_array = [
 animals_2d = [
 ['長頸鹿', '獅子', '兔子'],
 ['樹葉', '肉', '紅蘿蔔'],
-[500, 120, 30]
 ]
 print(num_2d_array)
 print(animals_2d)

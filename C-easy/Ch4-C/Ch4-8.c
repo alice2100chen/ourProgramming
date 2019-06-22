@@ -6,8 +6,8 @@ int main(){
         {"樹葉", "肉", "紅蘿蔔"}
     };
 
-    for(int i = 0; i < 2; i++){     // 外層控制animals_2d第i個元素(陣列)
-        for(int j = 0; j < 3; j++){ // 外層控制animals_2d第i個元素(陣列)
+    for(int i = 0; i < 2; i++){     // 外層控制animals_2d第一個維度的索引值
+        for(int j = 0; j < 3; j++){ // 內層控制animals_2d第二個維度的索引值
             printf("%s\n", animals_2d[i][j]);
         }
     }

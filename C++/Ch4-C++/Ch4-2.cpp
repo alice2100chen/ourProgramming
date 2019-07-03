@@ -1,1 +1,16 @@
-#include <iostream>#include <vector>using std::vector;using std::cout;using std::endl;int main(){	vector<int> score_array = {85, 92, 88, 96};	auto x = score_array.at(0);			// at(0) is safer than [0]	cout << x << endl;	score_array.at(0) = 95;	x = score_array.at(0);	cout << x << endl;}
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int score_array[4] = {85, 92, 88, 96};
+    int x = score_array[0]; // x會被設定為85
+    cout << x << endl;
+
+    score_array[0] = 95;    // score_array變成[95, 92, 88, 96]
+    x = score_array[0];     // x會被設定為95
+    cout << x << endl;
+
+    return 0;
+}
+

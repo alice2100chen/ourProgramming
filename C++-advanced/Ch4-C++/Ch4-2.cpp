@@ -1,0 +1,1 @@
+#include <iostream>#include <vector>using std::vector;using std::cout;using std::endl;int main(){	vector<int> score_array = {85, 92, 88, 96};	auto x = score_array.at(0);			// at(0) is safer than [0]	cout << x << endl;	score_array.at(0) = 95;	x = score_array.at(0);	cout << x << endl;}

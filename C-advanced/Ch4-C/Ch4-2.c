@@ -1,0 +1,1 @@
+#include <stdio.h>int main(){	int score_array[] = {85, 92, 88, 96};	int x = score_array[0];	printf("%d\n", x);	score_array[0] = 95;	x = score_array[0];	printf("%d\n", x);}

@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main(){
-	int x = 10, y = 20;
-	x = 30 ;
+    int x = 10;
+    int y = 20;
+    x = 30 ;
+    printf("%d %d", x, y);
 
-	printf("%d %d\n", x, y);
+    return 0;
 }

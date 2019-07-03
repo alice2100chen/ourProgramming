@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void print_array(int data[], int arr_len){
+	printf("[");
+	for(int i=0; i<arr_len; ++i){
+		printf("%d%s", data[i], i==arr_len-1? "":", ");}
+	printf("]\n");
+}
+
+int main(){
+	int data[] = {4, 1, 3, 5, 2};
+	int data_count = sizeof(data)/sizeof(int);
+
+	for(int i=0; i<data_count-1; ++i){
+		for(int j=0; j<data_count-1-i; ++j){
+			if(data[j] > data[j+1]){
+				int temp = data[j];
+				data[j] = data[j+1];
+				data[j+1] = temp;
+			}}
+		printf("第 %d 回合結果: ", i);
+		print_array(data, data_count);
+	}
+	printf("排序結束\n");
+}

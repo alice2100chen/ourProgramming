@@ -1,20 +1,19 @@
 #include <iostream>
-#include <iomanip>
 
-using std::cout;
-using std::endl;
-using std::setprecision;
+using namespace std;
 
-double factorial(double n){
-	if(n <= 1){
-		return 1;}
-	else{
-		return n * factorial(n-1);}
+int factorial(int n){   // 函數名稱factorial及參數n
+    if(n <= 1){         // 函數內部的程式碼--由此開始
+        return 1;
+    }
+    else{
+        return n * factorial(n-1);
+    }                   // 函數內部的程式碼--到此結束
 }
 
 int main(){
-	cout << setprecision(48);
-	cout << factorial(3) << endl;
-	cout << factorial(10) << endl;
-	cout << factorial(40) << endl;			//not precise enough for double from 23!
+    cout << factorial(3) << endl;   // 呼叫函數計算 3!
+    cout << factorial(10) << endl;  // 呼叫函數計算 10!
+
+    return 0;
 }

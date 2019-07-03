@@ -1,5 +1,5 @@
-CXX	= g++
-CFLAGS	= -std=c++11 -Wall
+CXX	= clang++
+CXXFLAGS	= -std=c++17 -Wall
 
 SRCS	= $(wildcard *.cpp)
 PROGS	= $(SRCS:.cpp=.out)

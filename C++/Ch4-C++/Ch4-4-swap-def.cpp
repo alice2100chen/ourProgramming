@@ -1,28 +1,27 @@
 #include <iostream>
-#include <vector>
 
-using std::vector;
-using std::ostream;
-using std::cout;
-using std::endl;
+using namespace std;
 
-ostream &operator<<(ostream &os, vector<int> vect){
-	os << '[';
-	for(auto &v: vect){
-		os << v << (&v==&vect.back()? "":", ");}
-	return os << ']';
+void swap(int a[], int i, int j){
+    int temp = a[i];
+    a[i] = a[j];
+    a[j] = temp;
 }
 
-void swap(vector<int> &a, int i, int j){
-	int temp = a.at(i);
-	a.at(i) = a.at(j);
-	a.at(j) = temp;
+void print_array(int arr[], int arr_len){
+    for(int i = 0; i < arr_len; i++){
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 }
 
 int main(){
-	vector<int> num_visitors = {70, 10, 14, 7, 25, 30, 50};
-	cout << num_visitors << endl;
+    int num_visitors[7] = {70, 10, 14, 7, 25, 30, 50}; // 索引0~6代表星期日到六
+    print_array(num_visitors, 7);
 
-	swap(num_visitors, 0, 6);
-	cout << num_visitors << endl;
+    swap(num_visitors, 0, 6);
+    print_array(num_visitors, 7);
+
+    return 0;
 }
+

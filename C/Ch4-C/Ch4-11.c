@@ -1,14 +1,17 @@
 #include <stdio.h>
 
-double factorial(double n){
-	if(n <= 1){
-		return 1;}
-	else{
-		return n * factorial(n-1);}
+int factorial(int n){   // 函數名稱factorial及參數n
+    if(n <= 1){         // 函數內部的程式碼--由此開始
+        return 1;
+    }
+    else{
+        return n * factorial(n-1);
+    }                   // 函數內部的程式碼--到此結束
 }
 
 int main(){
-	printf("%.0f\n", factorial(3));
-	printf("%.0f\n", factorial(10));
-	printf("%.0f\n", factorial(40));			//not precise enough for double from 23!
+    printf("%d\n", factorial(3));   // 呼叫函數計算 3!
+    printf("%d\n", factorial(10));  // 呼叫函數計算 10!
+
+    return 0;
 }

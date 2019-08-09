@@ -40,7 +40,7 @@ int main(){
     // ----------
     for(int i = 0; i < data_count - 1; i++){    // 5個數字，只需排4次，最後一個數會自動排好
         one_bubble(data, data_count-1-i);       // 最右邊的i個數已排好，不需要再排
-        cout << "第" << i + 1 << "回合結果: ";        // 印出每回合的結果
+        cout << "第" << i << "回合結果: ";        // 印出每回合的結果
         print_array(data, data_count);
     }
     cout << "排序結束" << endl;

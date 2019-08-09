@@ -1,7 +1,7 @@
 /*
 Ch5-3-binarySearch.cpp
 實作二分搜尋演算法
-函數: binary_search, print_array
+函數: binary_search
 版本: 1.0
 */
 
@@ -25,14 +25,6 @@ int binary_search(int data[], int left, int right, int target){
     else{                                       // 找到目標值(data[middle] == target)
         return middle;
     }
-}
-
-// -----函數print_array: 印出data中的元素 -----
-void print_array(int data[], int arr_len){
-    for(int i = 0; i < arr_len; i++){
-        cout << data[i] << " ";
-    }
-    cout << endl;
 }
 
 int main(){

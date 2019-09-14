@@ -67,11 +67,6 @@ int main(){
         }
     }
 
-    printf("總分統計結果如下:\n");
-    print_arr_string(animal_names, animal_num);
-    print_arr_int(data_sum, data_count);
-    printf("\n");
-
     for(int i = 0; i < data_count-1; i++){  // 4個動物，只需排3次，最後一個數會自動排好
         one_bubble(data_sum, animal_names, i, data_count);  // 右邊已排好的不需要再排
     }

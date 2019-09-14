@@ -14,21 +14,6 @@ void swap_int(int data[], int x, int y){
     data[y] = temp;
 }
 
-// ----- 函數swap_string: 交換data中，位置x, y的兩筆資料 -----
-void swap_string(char * data[], int x, int y){
-    char * temp = data[x];
-    data[x] = data[y];
-    data[y] = temp;
-}
-
-// -----函數print_arr_int: 印出data中的元素 -----
-void print_arr_int(int data[], int arr_len){
-    for(int i = 0; i < arr_len; i++){
-        printf("%d ", data[i]);
-    }
-    printf("\n");
-}
-
 // -----函數print_arr_string: 印出data中的元素 -----
 void print_arr_string(char * data[], int arr_len){
     for(int i = 0; i < arr_len; i++){
@@ -66,11 +51,6 @@ int main(){
             data_sum[i] += data_2d[i][j];
         }
     }
-
-    printf("總分統計結果如下:\n");
-    print_arr_string(animal_names, animal_num);
-    print_arr_int(data_sum, data_count);
-    printf("\n");
 
     for(int i = 0; i < data_count-1; i++){  // 4個動物，只需排3次，最後一個數會自動排好
         one_bubble(data_sum, animal_names, i, data_count);  // 右邊已排好的不需要再排

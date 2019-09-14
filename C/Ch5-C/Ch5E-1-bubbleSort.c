@@ -14,21 +14,6 @@ void swap_int(int data[], int x, int y){
     data[y] = temp;
 }
 
-// ----- 函數swap_string: 交換data中，位置x, y的兩筆資料 -----
-void swap_string(char * data[], int x, int y){
-    char * temp = data[x];
-    data[x] = data[y];
-    data[y] = temp;
-}
-
-// -----函數print_arr_int: 印出data中的元素 -----
-void print_arr_int(int data[], int arr_len){
-    for(int i = 0; i < arr_len; i++){
-        printf("%d ", data[i]);
-    }
-    printf("\n");
-}
-
 // -----函數print_arr_string: 印出data中的元素 -----
 void print_arr_string(char * data[], int arr_len){
     for(int i = 0; i < arr_len; i++){

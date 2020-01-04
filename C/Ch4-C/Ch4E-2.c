@@ -1,16 +1,21 @@
 #include <stdio.h>
 
 int main(){
-    int grades[3][3] = {{100, 20, 85}, {95,99,75}, {89,73,92}};
-    char * names[3] = {"嘉明", "小美", "阿雄"};
+    int grades[7] = {40, 80, 75, 20, 96, 69, 50};
+    int lower_60 = 0;
+    int higher_90 = 0;
 
-    for(int i = 0; i < 3; i++){
-        int sum = 0;
-        for(int j = 0; j < 3; j++){
-            sum += grades[i][j];
+    for(int i = 0; i < 7; i++){
+        if(grades[i] > 90){
+            higher_90++;
         }
-        printf("%s 總分為 %d 分\n", names[i], sum);
+        else if(grades[i] < 60){
+            lower_60++;
+        }
     }
+
+    printf("<60分: %d 個\n", lower_60);
+    printf(">90分: %d 個\n", higher_90);
 
     return 0;
 }

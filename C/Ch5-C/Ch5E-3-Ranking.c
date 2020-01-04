@@ -1,5 +1,5 @@
 /*
-Ch5E-1-Ranking.c
+Ch5E-3-Ranking.c
 實作鐵人三項成績分析，輸出排名
 函數: swap_int, swap_string, print_arr_int, print_arr_string, one_bubble
 版本: 1.0
